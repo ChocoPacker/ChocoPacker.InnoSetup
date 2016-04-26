@@ -2,4 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/ChocoPacker.InnoSetup/project.lock.json
+project.lock.json
+
+bin/
+obj/
+*.exe
