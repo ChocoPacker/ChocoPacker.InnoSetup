@@ -6,8 +6,8 @@
 			"type": "coreclr",
 			"request": "launch",
 			"preLaunchTask": "build",
-			"program": "${workspaceRoot}/bin/Debug/netstandardapp1.5/win7-x64/ChocoPacker.InnoSetup",
-			"args": [],
+			"program": "${workspaceRoot}/bin/Debug/netstandardapp1.5/win7-x64/ChocoPacker.InnoSetup.exe",
+			"args": ["${workspaceRoot}/bin/Debug/netstandardapp1.5/win7-x64/ChocoPacker.InnoSetup.dll"],
 			"cwd": "${workspaceRoot}",
 			"stopAtEntry": false
 		},
