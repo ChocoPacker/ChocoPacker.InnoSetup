@@ -8,9 +8,16 @@
 	"tasks": [
 		{
 			"taskName": "build",
-			"args": [ ],
+			"args": ["${workspaceRoot}/ChocoPacker.InnoSetup/"],
 			"isBuildCommand": true,
-			"showOutput": "silent",
+			"showOutput": "always",
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"taskName": "test",
+			"args": ["${workspaceRoot}/ChocoPacker.InnoSetup.Tests/"],
+			"isTestCommand": true,
+			"showOutput": "always",
 			"problemMatcher": "$msCompile"
 		}
 	]
