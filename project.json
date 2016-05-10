@@ -3,18 +3,23 @@
     
     "name": "ChocoPacker.InnoSetup",
     
-    "compilationOptions": {
+    "buildOptions": {
         "emitEntryPoint": true,
         "debugType": "portable"
     },
 
     "dependencies": {
-        "NETStandard.Library": "1.0.0-rc3-*"
+        "NETStandard.Library": "1.0.0-rc3-*",
+        "ChocoPacker.Common": "0.2.0-release-*"
     },
 
     "frameworks": {
         "netstandardapp1.5": {
             "imports": "dnxcore50"
         }
-    }
+    },
+    
+    "runtimes": { 
+        "win10-x64": { }
+    }  
 }
